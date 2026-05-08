@@ -107,6 +107,9 @@ function RootShell({ children }: { children: React.ReactNode }) {
         <HeadContent />
       </head>
       <body>
+        <div className="bg-red-600 text-white text-center py-2 text-sm font-bold sticky top-0 z-[100] uppercase tracking-widest shadow-md">
+          Demo Website - For Preview Purposes Only
+        </div>
         {children}
         <Scripts />
       </body>
